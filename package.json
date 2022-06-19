@@ -1,0 +1,29 @@
+{
+  "name": "club-wall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "devstart": "nodemon ./index.js",
+    "serverstart": "DEBUG=club-wall:* npm run devstart"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.1",
+    "luxon": "^2.4.0",
+    "mongoose": "^6.4.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
